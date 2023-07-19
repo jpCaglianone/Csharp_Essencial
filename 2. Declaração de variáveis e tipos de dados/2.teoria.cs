@@ -54,6 +54,7 @@ public class Teoria
         object objeto; // A classe base de todos os tipos em C#. Pode armazenar qualquer tipo de valor.
         dynamic dinamico; // Permite que as variáveis tenham seu tipo verificado em tempo de execução, ou seja, torna a variável com tipagem variável
 
+        int? numero = null; //permite que uma variável tem um tipo de dado e possa ser nulo. Seu modo extenso é Nullable<int> numero
 
         //void : Indica a ausência de tipo ou valor.Geralmente usado em declarações de método para indicar que o método não retorna um valor.
 
@@ -72,9 +73,6 @@ public class Teoria
         //    Domingo
         //} 
 
-        
-
-        const int A = 123;
 
         Console.WriteLine("Teoria executada!");
 

@@ -54,22 +54,34 @@ public class exemplo
         Console.Write("A hora atual é: ");
         Console.WriteLine(dataAtual.Hour); // esse struct busca a data atual tendo o PC como referência
 
-        DateTime dataInventada = new DateTime(22,02,11,23,11,65);
 
-        dataAtual.AddDays(1); //adiciona um dia a data
-        dataAtual.AddHours(1); //adiciona uma hora a data
-        dataAtual.AddMonths(2); //adiciona dois meses a data
-        dataAtual.AddYears(4); //adiciona quatro anos a data
-        dataAtual.AddMinutes(1); //adiciona um minuti a data
-        dataAtual.AddSeconds(1);
-        dataAtual.AddMilliseconds(1);
+        dataAtual = dataAtual.AddDays(1); //adiciona um dia a data
+        dataAtual = dataAtual.AddHours(1); //adiciona uma hora a data
+        dataAtual = dataAtual.AddMonths(2); //adiciona dois meses a data
+        dataAtual = dataAtual.AddYears(4); //adiciona quatro anos a data
+        dataAtual = dataAtual.AddMinutes(1); //adiciona um minuto a data
+        dataAtual = dataAtual.AddSeconds(1);
+        dataAtual = dataAtual.AddMilliseconds(1);
+
+
+        Console.WriteLine(dataAtual);
 
         Console.WriteLine(dataAtual.DayOfWeek); //Retorna o nome do dia da semana
-        Console.WriteLine(dataAtual.DayOfYear);
+        Console.WriteLine(dataAtual.DayOfYear); //retorno o número que corresponde o dia em relação ao ano, de 1 a 365
 
 
         #endregion
 
+        int? aaa = 23;
+        int bbb = 11;
 
+        int ccc = aaa ?? 0 + bbb; // é importante ressaltar que interação entre variáveis nullable e not-nullable não são permitidas
+                                   //para tal, foi utilizado o ?? que faz uma escolha, sendo ela: se a variável nullable possuir valor
+                                   // ele será utilizado, se não, o valor ao lado será adotado, no caso mostrado, caso a variável aaa
+                                   // seja
+
+       
+
+        Console.ReadKey();
     }
 }
