@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Runtime.InteropServices;
+using System.Text;
 
 public class Teoria  
 {
@@ -35,10 +37,22 @@ public class Teoria
         bool verdadeiro_falso; // Valor booleano que pode ser verdadeiro ou falso.
         char caractere; //Caractere Unicode de 16 bits.
         string palavra;// Sequência de caracteres Unicode.
+        /*
+         CUIDADO: AO REATRIBUIR STRING, UTILIZAR O STRINGBUILDER, POIS A REATRIBUIÇÃO CRIAR OUTRA VARIÁVEL, OCUPANDO MAIS ESPAÇO DE MEMÓRIA
+         */
 
+        StringBuilder palavraMelhorada = new StringBuilder(); // será visto mais a frente como utilizar o StringBluilder
+
+        DateTime data = DateTime.Now; //um exemplo de declaração de data, onde já lhe é atribuido a data de agora
+
+        DateTime data2 = new DateTime();
+        // pode ter atributos opcionais, sendo o ano, mes, dia, hora, minuto e segundo, nessa ordem, ou seja
+        // new DateTime(22,02,23) irá atribuir a data 22/02/2023
+        // possui os "métodos" Year, Month, Day, Hour, Minute, Second eMilisecond . Exemplo data.Month
+        
 
         object objeto; // A classe base de todos os tipos em C#. Pode armazenar qualquer tipo de valor.
-        dynamic dinamico; // Permite que as variáveis tenham seu tipo verificado em tempo de execução.
+        dynamic dinamico; // Permite que as variáveis tenham seu tipo verificado em tempo de execução, ou seja, torna a variável com tipagem variável
 
 
         //void : Indica a ausência de tipo ou valor.Geralmente usado em declarações de método para indicar que o método não retorna um valor.
@@ -58,6 +72,7 @@ public class Teoria
         //    Domingo
         //} 
 
+        
 
         const int A = 123;
 

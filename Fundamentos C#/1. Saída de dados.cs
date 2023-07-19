@@ -24,6 +24,9 @@ namespace SaidaDeDados
             // exemplo 2
             Console.WriteLine(12 + 42 - 90 * (-3));
 
+
+            Console.Write("Não pula linha"); //semelhante ao WriteLine, porém, não há quebra de linha
+
             Thread.Sleep(2500); //para o sistema pela quantidade de milissegundo dentro do parenteses, no caso, 2500 milissegundos
 
 

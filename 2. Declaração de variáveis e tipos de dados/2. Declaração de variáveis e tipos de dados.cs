@@ -9,9 +9,9 @@ namespace VariaveisTiposDados
     {
         public static void Main(string[] args)
         {
-           
-            Teoria teoria = new Teoria();
+            Teoria teoria = new Teoria(); //instanciando a classe para poder usa-la, será explicado em POO
             exemplo a = new exemplo();
+
  
         }
     }
