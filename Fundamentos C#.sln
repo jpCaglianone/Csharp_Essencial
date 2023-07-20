@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. Declaração de variáve
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3. Entrada de Dados, Concatenação, Interpolação e PlaceHolders", "3. Entrada de Dados, Concatenação, Interpolação e PlaceHolders\3. Entrada de Dados, Concatenação, Interpolação e PlaceHolders.csproj", "{2BA309C6-1EE5-4EA3-ADC7-EA033CFBF47B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Saída de Dados e Region", "1. Saída de Dados e Region\1. Saída de Dados e Region.csproj", "{5F1CF8FB-513E-4BF1-8672-D1DFE88078D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. Saída de dados", "1. Saída de Dados e Region\1. Saída de dados.csproj", "{547798EA-219F-4DB5-A707-6429EE9D434B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{2BA309C6-1EE5-4EA3-ADC7-EA033CFBF47B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BA309C6-1EE5-4EA3-ADC7-EA033CFBF47B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BA309C6-1EE5-4EA3-ADC7-EA033CFBF47B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5F1CF8FB-513E-4BF1-8672-D1DFE88078D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5F1CF8FB-513E-4BF1-8672-D1DFE88078D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5F1CF8FB-513E-4BF1-8672-D1DFE88078D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5F1CF8FB-513E-4BF1-8672-D1DFE88078D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{547798EA-219F-4DB5-A707-6429EE9D434B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{547798EA-219F-4DB5-A707-6429EE9D434B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{547798EA-219F-4DB5-A707-6429EE9D434B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{547798EA-219F-4DB5-A707-6429EE9D434B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
