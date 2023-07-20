@@ -46,6 +46,10 @@ public class Teoria
         #endregion
 
 
+		//Sequência de escape
+
+		
+
 
 
     }
