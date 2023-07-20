@@ -1,8 +1,16 @@
+na parte superior da ide, na opção Buid
+	- clean build : para limpar a solução de alterações conflitantes
+	- build : construir a aplicação
+	- rebuild :L reconstruir
 
-	As regiões são definidas em #region NOME e #endregion, onde o a palavra NOME pode ser substituida
-afim de definir melhor a finalidade do código. O uso de regions é altamente aconselhavel pois, 
-além de criar blocos nomeados, ajuda a organizar o código e facilita a leitura, já que a idéia da região 
-é nomear aquele bloco com a utilidade que ele possui
+
+
+ctrl + F5	inicia o código semdepuração
+F5	inicia o código com depuração
+ctrl + k + d	organiza o código
+ctrl + d 	duplica a linha onde o cursor está
+ctrl + F	realiza busca no documento atual
+outros	https://visualstudio.microsoft.com/keyboard-shortcuts.pdf
 
 
 para criar novo projeto na mesma solution
