@@ -11,21 +11,6 @@ namespace Aritmeticos
             float y = 54.1f;
 
 
-            // Biblioteca Math
-            // Math.PI = representa o número pi
-            // Math.E = representa a base e do logaritmo natural
-            // Cos(x) = obtém o cosseno de x
-            // Sin(x) = obtém o seno de x
-            // Tan(x) = obtém a tangente de x
-            // Sqrt(x) = obtém a raiz quadrada de x
-            // Pow(x,y) = obtém a potência de x elevado a y
-            // Abs(x) = obtém o valor absoluto de x
-            // Max(x,y) = obtém o maior valor entre dois números
-            // Min(x,y) = obtém o menor valor entre dois números
-            // Log10(x) = calcula o logaritmo de x na base 10
-            // Log(x) = calcula o logaritmo de x na base e
-            // Exp(x) = retorna o exponencial (e elevado a x)
-
             Console.WriteLine($"A soma entre {x} e {y} é : {x + y}");
             Console.WriteLine($"A subtração entre {x} e {y} é : {x - y}");
             Console.WriteLine($"A multiplicaçao entre {x} e {y} é : {x * y}");

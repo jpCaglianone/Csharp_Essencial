@@ -16,9 +16,15 @@ public class Teoria
             */
 
         var variavel = "Teste";
-        /* variavel = 132; se esse linha de código não fosse um comentário, daria erro, pois
+        /* 
+            variavel = 132; se esse linha de código não fosse um comentário, daria erro, pois
             anteriormente foi atribuido um valor a variável que fez ela adquirir um tipo de dado
             diferente do novo que está sendo atribuido
+            a palavra chave var infere um tipo implicito. É necessário que elas sejam inicializadas no 
+        inicio do processo para que o compilador possa identificar seu tipo. Não é possivel inicia-la com null
+        Ela não pode ser iniciada com multiplas variaveis, exemplo : var a, b, c; pois é necessário inicia-la
+        com algum valor.
+
         */
 
         int numero1; //declaração de uma variável do tipo número inteiro com sinal de 32 bits.
@@ -72,6 +78,10 @@ public class Teoria
         //    Sabado,
         //    Domingo
         //} 
+
+
+        //declaração de multivariáveis do mesmo tipo
+        int num1, num2, num3;
 
 
         Console.WriteLine("Teoria executada!");
