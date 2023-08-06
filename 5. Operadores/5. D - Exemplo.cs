@@ -8,6 +8,8 @@ namespace Atribuicao
     {
         public Exemplo()
         {
+            Console.WriteLine("**********************************************");
+            Console.WriteLine("*************** ATRIBUIÇÕES ******************");
 
             //atribuições simples
             int a = 10;

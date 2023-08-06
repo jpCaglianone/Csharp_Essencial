@@ -7,6 +7,10 @@ namespace Aritmeticos
 	{
 		public Exemplo()
 		{
+
+            Console.WriteLine("**********************************************");
+            Console.WriteLine("*************** ARITMÉTICOS ******************");
+
             float x = 13.2f;
             float y = 54.1f;
 
