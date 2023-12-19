@@ -4,7 +4,9 @@ namespace estruturaFor
 {
 	public class exemplo
 	{
-		public exemplo()
+        private const string V = " j: ";
+
+        public exemplo(int v)
 		{
             #region ex1 
             Console.WriteLine("************* Exemplo 1 ************");
@@ -103,12 +105,12 @@ namespace estruturaFor
             }
             #endregion
 
-            region ex6
-            for (int i = 0, int j = 10; i - j != 0; i++, j--) //não é comum e talvez nem seja uma boa prática, porém, é possivel
+            #region ex6
+            for (int i = 0, j = 10; i - j != 0; i++, j--) //não é comum e talvez nem seja uma boa prática, porém, é possivel
                                                               //encaixar multiplas expressões
                                                     
             {
-                Console.WriteLine("i: " + i + " j: " + j + " i - j: " + i-j);
+                Console.WriteLine("i: " + i + "j: " + j + " i-j: " + (i - j));
             }
 #endregion
         }

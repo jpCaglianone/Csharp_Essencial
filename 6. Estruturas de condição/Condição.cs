@@ -2,4 +2,4 @@
 //switchcase.exemplo sc = new switchcase.exemplo();
 //gotolabel.exemplo gl = new gotolabel.exemplo();
 //while_doWhile.exemplo wd = new while_doWhile.exemplo();
-estruturaFor.exemplo f = new estruturaFor.exemplo();
+estruturaFor.exemplo f = new estruturaFor.exemplo(int);
