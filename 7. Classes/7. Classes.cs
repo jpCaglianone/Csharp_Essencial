@@ -21,6 +21,9 @@ pessoa_1.apresentacao(); //invocando o método do objeto
 pessoa_1.novoPeso(90.5f);
 
 
+ClassePessoaConstructor pessoa_4 = new("João"); //uso o constructor que solicita o nome como parametro, a IDE reconhece automaticamente
+Console.WriteLine(pessoa_4.nome);
+
 
 
 

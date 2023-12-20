@@ -4,7 +4,7 @@ public class ClassePessoa //utiliza a chave class para definir uma classe
 {
     //a chave public define que todos podem acessar o atributo, método ou classe, já o private determina que apenas aquela classe pode acessa-los
     public string nome;
-    public int idade;
+    public int? idade;
     public float peso;
     public float altura;
 
