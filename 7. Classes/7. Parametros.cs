@@ -22,9 +22,6 @@ public class Parametros
 	// caso seja invocado e o argumento nao passado
 	public string apelido (string apelido = "apelido padrao") => apelido;
 
-    private string composicaoApelidoDefault()
-	{
-		return this.nome[1].ToString() + this.nome[this.nome.Length-1].ToString() + this.codigo%10;
-	}
+ 
 
 }

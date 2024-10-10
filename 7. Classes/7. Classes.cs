@@ -79,3 +79,23 @@ Console.WriteLine("----------------------------------- Parametros opcionais ----
 Console.WriteLine(parametro.apelido());
 
 #endregion
+
+#region Estatico
+
+Console.WriteLine("----------------------------------- Estaticos -----------------------------------");
+
+Console.WriteLine(Estaticos.criarApelido("Joao", 2934));
+Estaticos.num = 3;
+#endregion
+
+#region Propriedades_GetSet
+
+Console.WriteLine("----------------------------------- Propriedades GetSet -----------------------------------");
+Propriedades propriedades = new Propriedades();
+
+propriedades.setA(2);
+Console.WriteLine(propriedades.getA());
+propriedades.B = 3;
+Console.WriteLine(propriedades.B); 
+
+#endregion
