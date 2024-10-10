@@ -48,5 +48,34 @@ Console.WriteLine(classeSobrecarga.Somar(x, a)); //invoca o quarto Somar
 
 #endregion
 
+#region PassagemPorReferencia
 
+Console.WriteLine("----------------------------------- Passagem por referencia -----------------------------------");
 
+Console.WriteLine("Bem antes da passagem por referencia " + b);
+classeSobrecarga.Dobrar(ref b);
+Console.WriteLine("Bem após a passagem por referencia " + b);
+
+#endregion
+
+#region Parametros
+
+Console.WriteLine("----------------------------------- Parametros nomeados -----------------------------------");
+
+string nome = "Joao";
+string email = "joao@gmail.com";
+int codigo = 261395432;
+
+// com os argumentos nomeados, não é necessário passar exatamente na ordem que esta definida na classe ou metodo
+// basta colocar o nome do parametro, seguido de dois ponto e o seu valor, como abaixo
+Parametros parametro = new(codigo: codigo, nome: nome, email: email); //aqui a ordem definida era nome, email e codigo
+//outro exemplo de instanciação
+Parametros parametro1 = new(email: "aux@teste", codigo: 195128934, nome: "teste");
+parametro.imprimir();
+parametro1.imprimir();
+
+Console.WriteLine("----------------------------------- Parametros opcionais -----------------------------------");
+
+Console.WriteLine(parametro.apelido());
+
+#endregion
