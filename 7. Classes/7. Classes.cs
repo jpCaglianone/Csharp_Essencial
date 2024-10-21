@@ -1,4 +1,19 @@
 ﻿
+#region Modificadores_de_Acesso
+// public: Acesso total. Qualquer parte do código, em qualquer lugar, pode acessar.
+
+// private: Acesso restrito. Apenas a classe em que o membro está definido pode acessá-lo.
+
+// protected: Acesso restrito a herança. Apenas a classe base e suas classes derivadas podem acessar.
+
+// internal: Acesso limitado ao assembly. Apenas o código dentro do mesmo projeto/assembly pode acessar.
+
+// protected internal: Combinação de protected e internal. Pode ser acessado por classes derivadas ou qualquer classe dentro do mesmo assembly.
+
+// private protected: Acesso restrito a herança dentro do mesmo assembly. Somente classes derivadas no mesmo projeto podem acessar.
+
+#endregion
+
 #region Modos_de_instanciação
 
 Console.WriteLine("----------------------------------- Modos de instanciação -----------------------------------");
@@ -96,6 +111,27 @@ Propriedades propriedades = new Propriedades();
 propriedades.setA(2);
 Console.WriteLine(propriedades.getA());
 propriedades.B = 3;
-Console.WriteLine(propriedades.B); 
+Console.WriteLine(propriedades.B);
 
 #endregion
+
+#region Structs
+
+// considere definir um struct ao inves de uma classe se as instancias
+// necessarias forem pequenas e de curta duração ou comumente incorporadas
+// em outros objetos
+
+Console.WriteLine("----------------------------------- Structs -----------------------------------");
+
+Structs minhaStruct = new("joao", null);
+Console.WriteLine(minhaStruct.nome);
+
+#endregion
+
+#region Enum
+
+Console.WriteLine("----------------------------------- Enum -----------------------------------");
+
+Enum teste = new Enum();
+
+#endregion Enum
