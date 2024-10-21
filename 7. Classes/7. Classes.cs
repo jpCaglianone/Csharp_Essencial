@@ -135,3 +135,12 @@ Console.WriteLine("----------------------------------- Enum --------------------
 Enum teste = new Enum();
 
 #endregion Enum
+
+#region PartialClass
+
+Console.WriteLine("----------------------------------- PartialClass -----------------------------------");
+
+ClassePartial classePartial = new("teste", 123, 23.1);
+classePartial.apresentar();
+
+#endregion

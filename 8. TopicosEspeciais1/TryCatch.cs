@@ -1,4 +1,4 @@
-﻿TryCatch tc = new();
+﻿//TryCatch tc = new();
 
-TryCatch.setNumeroA(32);
-TryCatch.SetNumeroB("Waa");
+//TryCatch.setNumeroA(32);
+//TryCatch.SetNumeroB("Waa");
