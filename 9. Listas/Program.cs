@@ -21,3 +21,12 @@ Stack.exemploStack();
 
 #endregion
 
+#region Array
+
+Console.WriteLine("-------------------------- Array ------------------------------");
+
+Matriz.exemploArray();
+Matriz.metodosArray();
+
+#endregion
+
